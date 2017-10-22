@@ -1,0 +1,264 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+		.left-column {
+
+ //    	margin-left: -80px;
+ 		border-right: none;
+  }
+  .main-content-block {
+		margin-left: -15px;
+  }
+ .author-block, .related-block, .main-content-block, .currency-block {
+    border-bottom: none;
+	}
+	.author-block h2 {
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width : 900px) {
+	margin-top: 0;
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.header-nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main-column {
+	margin-top: -1px;
+	z-index: 0;
+	margin-right: -20px;
+	border-top: none;
+}
+.header-nav li {
+	margin: 0;
+}
+.header-nav a {
+	padding: 5px;
+}
+.active a {
+	padding: 5px 18px;
+}
+.social-icon {
+	display: none;
+	position: absolute;
+	top: 42px;
+	right: 10px;
+	z-index: 300;
+	margin-right: 0;
+}
+.social-icon li {
+	display: block;
+	padding: 5px 10px;
+	background-color: #FFF;
+	border: 1px solid #22AAEC;
+	opacity: .8;
+}
+.social-icon i {
+	color: #22AAEC;
+}
+.auth-buttons {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	bottom: -5px;
+}
+.auth-buttons i {
+	font-size: 30px;
+}
+.main-content-block {
+	margin-left: 5px;
+}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+@media only screen and (max-width : 680px) {
+	.item {
+		margin-left: 5px;
+	}
+	.main-column {
+		margin: 0 auto;
+	}
+	.left-column {
+		padding-left: 29px;
+	}
+	.main-block {
+		margin-left: 22%;
+		margin-bottom: 20px;
+	}
+	.add-component {
+		width: 85%;
+	}
+}
+@media only screen and (max-width : 600px) {
+	.item {
+		margin-left: 20px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.header-nav a {
+		padding: 10px 5px;
+	}
+	.active a {
+		padding: 10px 5px;
+	}
+	.item {
+		margin-left: 5px;
+	}
+	.component-author {
+		padding: 0;
+	}
+	.post-img {
+		margin-right: 10px;
+	}
+	.main-block {
+		margin-left: 10%;
+	}
+	.add-component {
+    width: 85%;
+		margin-left: 20px;
+	}
+	.footer-nav a {
+		padding-left: 0;
+	}
+
+}
+@media only screen and (max-width : 420px) {
+	.item {
+		margin-left: 20%;
+	}
+	.post-meta {
+		width: 173px;
+	}
+	.main-column {
+		margin-left: -20px;
+	}
+	.left-column {
+		padding-left: 0;
+	}
+	.main-block {
+		margin-left: 5%;
+	}
+	.add-component {
+    width: 80%;
+	}
+		.main-column h2 {
+		padding-top: 60px;
+	}
+
+}
+@media only screen and (max-width : 376px) {
+	.main-block {
+		margin-left: -2%;
+	} 
+	.map h2 {
+   	padding-left: 15px;
+   }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.auth-buttons {
+		display: inline-block;
+		position: absolute;
+		right: 3px;
+		bottom: -3px;
+	}	
+	.social-icon {
+		top: 35px;
+		margin-right: -7px;
+	}
+	.item {
+		margin-left: 15%;
+	}
+	.post-meta {
+		margin: 45px;
+    margin-bottom: 0;
+    margin-top: 20px;
+	}
+	.main-post {
+		width: 295px;
+	}
+	.main-post h2 {
+		font-size: 20px;
+	}
+	.main-post p {
+		line-height: 18px;
+	}
+	.main-content-block {
+    margin-left: -20px;
+    }
+   .add-component {
+   	width: 86%;
+   	margin-top: 5px;
+   	margin-bottom: 0;
+   }
+   .content-post p {
+   	margin-right: 0;
+   }
+   .main-column h2 {
+   	padding-top: 70px;
+   }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 400px) {
+
+}
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+	.social-icon {
+		display: inline-block !important;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
